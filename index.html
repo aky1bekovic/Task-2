@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<!--TODO: Могут быть баги в мобильном дисплее :DDDDDDD-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <title>The Booba</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-dropdown">
+                <li><a href="#">Для мужчин <img src="data/images/polygon.svg" /></a>
+                    <ul>
+                        <li><a href="#">Element #1</a></li>
+                        <li><a href="#">Element #2</a></li>
+                        <li><a href="#">Element #3</a></li>
+                        <li><a href="#">Element #4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Для женщин <img src="data/images/polygon.svg" /></a>
+                    <ul>
+                        <li><a href="#">Element #1</a></li>
+                        <li><a href="#">Element #2</a></li>
+                        <li><a href="#">Element #3</a></li>
+                        <li><a href="#">Element #4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Для детей <img src="data/images/polygon.svg" /></a>
+                    <ul>
+                        <li><a href="#">Element #1</a></li>
+                        <li><a href="#">Element #2</a></li>
+                        <li><a href="#">Element #3</a></li>
+                        <li><a href="#">Element #4</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="center-div"><img class="logo" src="data/images/logo.svg" alt="Logo" /> </div>
+            <div class="nav-links">
+                <a href="#">Оплата</a>
+                <a href="#">Доставка</a>
+            </div>
+            <div class="links-img">
+                <a href="#"><img src="data/images/shop.svg" /></a>
+                <a href="#"><img src="data/images/arrow.svg" /></a>
+            </div>
+            <a class="menu"><img src="data/images/menu.svg" /></a> <!--Input сюды-->
+        </nav>
+    </header>
+
+    <div onclick="updateHero()" class="dynamic-hero">
+        <div>
+            <h2>Зимняя распродажа</h2>
+            <h1>Скидки до 90% <button href="#">Смотреть модели</button></h1>
+            <img src="data/images/impl/1.png"></img>
+        </div>
+        <div>
+            <h2>Норм распродажа</h2>
+            <h1>Скидки до 666% <button href="#">Смотреть модели</button></h1>
+            <img src="data/images/impl/1.png"></img>
+        </div>
+        <div>
+            <h2>Еще распродажа</h2>
+            <h1>Скидки до 0.001% <button href="#">Смотреть модели</button></h1>
+            <img src="data/images/impl/1.png"></img>
+        </div>
+        <div>
+            <h2>Math.sqrt(-1)</h2>
+            <h1>Скидки до 1d-32e% <button href="#">Смотреть модели</button></h1>
+            <img src="data/images/impl/1.png"></img>
+        </div>
+    </div>
+
+    <div class="btm-sliders">
+        <span onclick="btm_slide(1)"></span>
+        <span onclick="btm_slide(2)"></span>
+        <span onclick="btm_slide(3)"></span>
+        <span onclick="btm_slide(4)"></span>
+    </div>
+
+    <div class="panel">
+        <h1><strong>БЕСПЛАТНАЯ ДОСТАВКА</strong> ОТ 3000₽</h1>
+        <h2>Сделайте заказ и получите подарок!</h2>
+    </div>
+
+    <!--divdivdividivdivdivdiv-->
+    <div class="collection">
+        <div class="row-1">
+            <div class="row">
+                <div class="content-1">
+                    <img src="data/images/impl/man-collection-text.svg">
+                    <h2>Обувь, полуверы, костюмы
+                    </h2>
+                    <button href="#"><img src="data/images/impl/arrow-button.svg" /></button>
+                </div>
+                <div class="shit-1"><img src="data/images/impl/man.png" /></div>
+                </img>
+            </div>
+        </div>
+
+        <div class="row-2">
+            <div class="row">
+                <div class="content-1">
+                    <img src="data/images/impl/woman-collection-text.svg">
+                    <h2>Обувь, полуверы, костюмы
+                    </h2>
+                    <button href="#"><img src="data/images/impl/arrow-button.svg" /></button>
+                    </img>
+                </div>
+                <div class="shit-1"><img src="data/images/impl/woman.png" /></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="products">
+        <img src="data/images/impl/catalog_item.png" />
+        <img src="data/images/impl/catalog_item.png" />
+        <img src="data/images/impl/catalog_item.png" />
+        <img src="data/images/impl/catalog_item.png" />
+        <img src="data/images/impl/catalog_item.png" />
+        <img src="data/images/impl/catalog_item.png" />
+        <img src="data/images/impl/catalog_item.png" />
+        <img src="data/images/impl/catalog_item.png" />
+    </div>
+
+    <div class="models">
+        <h1>Новые модели</h1>
+
+        <div class="products">
+            <img src="data/images/impl/model-cards.png" />
+            <img src="data/images/impl/model-cards.png" />
+            <img src="data/images/impl/model-cards.png" />
+            <img src="data/images/impl/model-cards.png" />
+        </div>
+
+        <button>Все модели <img src="data/images/impl/arrow-button.svg" /></button>
+    </div>
+
+    <div class="panel-2">
+        <h1>ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ</h1>
+        <input type="text" id="efield" placeholder="Ваш e-mail" name="efield">
+        <button>Подписаться</button>
+    </div>
+
+    <div class="models">
+        <h1>Скидки до 90%</h1>
+
+        <div class="products">
+            <img src="data/images/impl/model-cards.png" />
+            <img src="data/images/impl/model-cards.png" />
+            <img src="data/images/impl/model-cards.png" />
+            <img src="data/images/impl/model-cards.png" />
+        </div>
+
+        <button>Все модели <img src="data/images/impl/arrow-button.svg" /></button>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-row-1">
+                <img src="data/images/footer-logo.svg" />
+                <h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus egestas elit, at
+                    eleifend
+                    elit ornare ut.
+                </h2>
+            </div>
+
+            <div class="footer-panels">
+                <div class="column-1">
+                    <h1>Основные ссылки</h1>
+                    <ul>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                    </ul>
+                </div>
+                <div class="column-2">
+                    <h1>Категории</h1>
+                    <ul>
+                        <li><a href="#">Мужская одежда</a></li>
+                        <li><a href="#">Женская одежда</a></li>
+                        <li><a href="#">Детская одежда</a></li>
+                        <li><a href="#">Для животных</a></li>
+                    </ul>
+                </div>
+                <div class="column-3">
+                    <h1>Полезные ссылки</h1>
+                    <ul>
+                        <li><a href="#">Таблица размера cock</a></li>
+                        <li><a href="#">Блог о моде</a></li>
+                        <li><a href="#">Наша миссия</a></li>
+                    </ul>
+                </div>
+                <div class="column-4">
+                    <h1>Соц. сети</h1>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-vk"></i> VK.com</a></li>
+                        <li><a href="#"><i class="fa fa-facebook-square"></i> <strong>Facebook</strong></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyring">
+        <h3>Copyright © 2019. Все права защищены</h3>
+        <h3>Политика приватности</h3>
+    </div>
+
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>
